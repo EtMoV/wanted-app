@@ -1,0 +1,20 @@
+h1 {
+  margin: 15vh auto 1em auto;
+  text-align: center;
+}
+
+.scanner {
+  width: 30em;
+  margin: auto;
+}
+
+@media (max-width: 375px) {
+  h1 {
+    margin: 7vh auto 1em auto;
+    font-size: xx-large;
+  }
+
+  .scanner {
+    width: 20em;
+  }
+}
